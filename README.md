@@ -28,7 +28,9 @@ In order to use the API, please do the following from your local pokemon_api res
 
 
   { 
-    "name": "charizard", 
+    "name": "charizard",
+
+    
     "description": "Charizard flies 'round the sky in search of powerful opponents. 't breathes fire of such most wondrous heat yond 't melts aught. However,  't nev'r turns its fiery breath on any opponent weaker than itself."
   }
 
