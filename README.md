@@ -21,8 +21,14 @@ In order to use the API, please do the following from your local pokemon_api res
   2. Make requests to the following endpoints
 
 ### Endpoints
-  | Endpoint               | Example response |
-  | GET /pokemon/charizard | {"name": "charizard", "description": "Charizard flies 'round the sky in search of powerful opponents. 't breathes fire of such most wondrous heat yond 't melts aught. However,  't nev'r turns its fiery breath on any opponent weaker than itself."} |
+
+  GET /pokemon/charizard
+  
+  Example response
+  { 
+    "name": "charizard", 
+    "description": "Charizard flies 'round the sky in search of powerful opponents. 't breathes fire of such most wondrous heat yond 't melts aught. However,  't nev'r turns its fiery breath on any opponent weaker than itself."
+  }
 
 
 ## Testing
