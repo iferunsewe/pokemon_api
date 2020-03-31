@@ -1,24 +1,32 @@
 # README
 
-This README would normally document whatever steps are necessary to get the
-application up and running.
+This is an API used to find shakespearean translations of pokemon descriptions.
 
-Things you may want to cover:
+## Installation
 
-* Ruby version
+To install this repository please do the following:
 
-* System dependencies
+  1. git clone git@github.com:iferunsewe/pokemon_api.git
+  2. cd pokemon_api
+  3. bundle install (this will install all the dependencies)
+  4. bundle rake db:migrate
+  
 
-* Configuration
+## Usage
 
-* Database creation
+In order to use the API, please do the following from your local pokemon_api respository:
 
-* Database initialization
+  1. bundle exec rails s -p 3000(this will start a local server for you)
+  2. Make requests to the following endpoints
 
-* How to run the test suite
+### Endpoints
+  | Endpoint  | Example response |
+  | GET /pokemon/charizard | {"name": "charizard", "description": "Charizard flies 'round the sky in search of powerful opponents. 't breathes fire of such most wondrous heat yond 't melts aught. However,  't nev'r turns its fiery breath on any opponent weaker than itself."} |
 
-* Services (job queues, cache servers, search engines, etc.)
 
-* Deployment instructions
+## Testing
 
-* ...
+To run the tests for this project, please run the following from your local pokemon_api respository:
+
+  `bundle exec rspec`
+  
