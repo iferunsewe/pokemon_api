@@ -32,5 +32,8 @@ module PokemonApi
 
     # Autoloading path for the lib
     config.autoload_paths << "#{Rails.root}/lib"
+
+    # Eager loading so path will work on heroku
+    config.eager_load_paths += Dir["#{config.root}/lib/**/"]
   end
 end
