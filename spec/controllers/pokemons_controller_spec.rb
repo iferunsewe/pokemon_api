@@ -2,7 +2,7 @@
 require "rails_helper"
 
 RSpec.describe PokemonsController, type: :request do
-  context "GET /pokemon/:pokemon_name" do
+  context "GET /pokemon/:pokemon_name status 200" do
     let(:pokemon_species_json) { File.open('./spec/support/fixtures/pokemon_species.json').read }
     let(:shakespeare_json) { File.open('./spec/support/fixtures/shakespeare_translation.json').read }
     let(:pokemon_name) { "charizard" }
@@ -27,12 +27,7 @@ RSpec.describe PokemonsController, type: :request do
       json = JSON.parse(response.body)
       expect(json["name"]).to eq pokemon_name
       expect(json["description"]).to eq expected_description
-    end
-
-    it "returns a error message if the name isn't a pokemon name" do
-      get pokemon_path(pokemon_name: "foobar")
-      json = JSON.parse(response.body)
-      expect(json["message"]).to eq "Not Found"
+      expect(response.code.to_i).to eq 200
     end
 
     it "creates a Pokemon record in the database if it is a pokemon's name but it doesn't exist in the database" do
@@ -46,6 +41,22 @@ RSpec.describe PokemonsController, type: :request do
         get pokemon_path(pokemon_name: pokemon_name)
         get pokemon_path(pokemon_name: pokemon_name)
       }.to change{ Pokemon.count }.by(1)
+    end
+  end
+
+  context "GET /pokemon/:pokemon_name status 404" do
+    before do
+      stub_request(:any, /pokeapi.co/).to_return(
+        status: 404,
+        body: "Not Found"
+      )
+    end
+
+    it "returns a error message if the name isn't a pokemon name" do
+      get pokemon_path(pokemon_name: "foobar")
+      json = JSON.parse(response.body)
+      expect(json["message"]).to eq "Not Found"
+      expect(response.code.to_i).to eq 404
     end
   end
 end
