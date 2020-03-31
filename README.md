@@ -11,7 +11,7 @@ To install this repository please do the following:
   3. `bundle install` (this will install all the dependencies)
   4. `bundle rake db:migrate`(this will run the database migrations needed)
   
-This assumes you have ruby and SQLite installed on your machine.
+This assumes you have ruby.
 
 ## Usage
 
