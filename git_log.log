@@ -1,23 +1,26 @@
-2102108 was Ife Runsewe, 2 minutes ago, message: Replaced sqlite3 with postgres
-d28f5a6 was Ife Runsewe, 13 minutes ago, message: Added git_log
-c4771ef was Ife Runsewe, 15 minutes ago, message: Remove unneeded line
-d07da56 was Ife Runsewe, 22 minutes ago, message: JSON in 3 backticks
-290a193 was Ife Runsewe, 23 minutes ago, message: line break
-25e1252 was Ife Runsewe, 24 minutes ago, message: line break
-47d0cc2 was Ife Runsewe, 24 minutes ago, message: line break
-aa80969 was Ife Runsewe, 24 minutes ago, message: Updated endpoints section
-96dfc34 was Ife Runsewe, 26 minutes ago, message: Aliging table
-aa57226 was Ife Runsewe, 27 minutes ago, message: addded backticks to commands in the readme
-3eec59a was Ife Runsewe, 29 minutes ago, message: Update readme
-f5af015 was Ife Runsewe, 48 minutes ago, message: implementation for controller and the responses
-1d394e8 was Ife Runsewe, 50 minutes ago, message: Added autoloading path for lib so I use the services
-ff28f44 was Ife Runsewe, 50 minutes ago, message: Added HTTParty to gemfile
-8ac7c86 was Ife Runsewe, 51 minutes ago, message: Created api services for the pokemon_species api and the shakespear api
-69c8384 was Ife Runsewe, 52 minutes ago, message: Better format for error handling test
-f55fc56 was Ife Runsewe, 61 minutes ago, message: New controller spec with test cases using the stub responses
-d91b6fe was Ife Runsewe, 62 minutes ago, message: Added api fixtures to be used in webmock
-c17236d was Ife Runsewe, 64 minutes ago, message: Added webmock for stubbing api requests in tests
-0aecd00 was Ife Runsewe, 23 hours ago, message: Written test cases for the GET /pokemon/:pokemon_nam endpoint
+b27c150 was iferunsewe, 52 seconds ago, message: Added line to readme about using the production url for the API
+cd796a6 was iferunsewe, 7 minutes ago, message: Eager loading paths to the lib
+59bceec was Ife Runsewe, 30 minutes ago, message: Updated git log
+2102108 was Ife Runsewe, 32 minutes ago, message: Replaced sqlite3 with postgres
+d28f5a6 was Ife Runsewe, 44 minutes ago, message: Added git_log
+c4771ef was Ife Runsewe, 46 minutes ago, message: Remove unneeded line
+d07da56 was Ife Runsewe, 52 minutes ago, message: JSON in 3 backticks
+290a193 was Ife Runsewe, 53 minutes ago, message: line break
+25e1252 was Ife Runsewe, 54 minutes ago, message: line break
+47d0cc2 was Ife Runsewe, 54 minutes ago, message: line break
+aa80969 was Ife Runsewe, 55 minutes ago, message: Updated endpoints section
+96dfc34 was Ife Runsewe, 56 minutes ago, message: Aliging table
+aa57226 was Ife Runsewe, 57 minutes ago, message: addded backticks to commands in the readme
+3eec59a was Ife Runsewe, 60 minutes ago, message: Update readme
+f5af015 was Ife Runsewe, 78 minutes ago, message: implementation for controller and the responses
+1d394e8 was Ife Runsewe, 80 minutes ago, message: Added autoloading path for lib so I use the services
+ff28f44 was Ife Runsewe, 80 minutes ago, message: Added HTTParty to gemfile
+8ac7c86 was Ife Runsewe, 82 minutes ago, message: Created api services for the pokemon_species api and the shakespear api
+69c8384 was Ife Runsewe, 82 minutes ago, message: Better format for error handling test
+f55fc56 was Ife Runsewe, 2 hours ago, message: New controller spec with test cases using the stub responses
+d91b6fe was Ife Runsewe, 2 hours ago, message: Added api fixtures to be used in webmock
+c17236d was Ife Runsewe, 2 hours ago, message: Added webmock for stubbing api requests in tests
+0aecd00 was Ife Runsewe, 24 hours ago, message: Written test cases for the GET /pokemon/:pokemon_nam endpoint
 560b18c was Ife Runsewe, 2 days ago, message: Added pokemon controller spec, route and skeleton for spec
 07a5a3c was Ife Runsewe, 2 days ago, message: added some examples for creating a pokemon model and validating the presence of some attributes
 4faf9d8 was Ife Runsewe, 2 days ago, message: run migration and added fields to the pokemon table
