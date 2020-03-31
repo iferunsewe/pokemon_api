@@ -1,0 +1,25 @@
+c4771ef was Ife Runsewe, 72 seconds ago, message: Remove unneeded line
+d07da56 was Ife Runsewe, 8 minutes ago, message: JSON in 3 backticks
+290a193 was Ife Runsewe, 9 minutes ago, message: line break
+25e1252 was Ife Runsewe, 9 minutes ago, message: line break
+47d0cc2 was Ife Runsewe, 10 minutes ago, message: line break
+aa80969 was Ife Runsewe, 10 minutes ago, message: Updated endpoints section
+96dfc34 was Ife Runsewe, 12 minutes ago, message: Aliging table
+aa57226 was Ife Runsewe, 12 minutes ago, message: addded backticks to commands in the readme
+3eec59a was Ife Runsewe, 15 minutes ago, message: Update readme
+f5af015 was Ife Runsewe, 33 minutes ago, message: implementation for controller and the responses
+1d394e8 was Ife Runsewe, 35 minutes ago, message: Added autoloading path for lib so I use the services
+ff28f44 was Ife Runsewe, 36 minutes ago, message: Added HTTParty to gemfile
+8ac7c86 was Ife Runsewe, 37 minutes ago, message: Created api services for the pokemon_species api and the shakespear api
+69c8384 was Ife Runsewe, 38 minutes ago, message: Better format for error handling test
+f55fc56 was Ife Runsewe, 47 minutes ago, message: New controller spec with test cases using the stub responses
+d91b6fe was Ife Runsewe, 48 minutes ago, message: Added api fixtures to be used in webmock
+c17236d was Ife Runsewe, 49 minutes ago, message: Added webmock for stubbing api requests in tests
+0aecd00 was Ife Runsewe, 23 hours ago, message: Written test cases for the GET /pokemon/:pokemon_nam endpoint
+560b18c was Ife Runsewe, 2 days ago, message: Added pokemon controller spec, route and skeleton for spec
+07a5a3c was Ife Runsewe, 2 days ago, message: added some examples for creating a pokemon model and validating the presence of some attributes
+4faf9d8 was Ife Runsewe, 2 days ago, message: run migration and added fields to the pokemon table
+a93b31e was Ife Runsewe, 2 days ago, message: Created pokemon model and spec for model
+77eff4b was Ife Runsewe, 2 days ago, message: Added rspec and removed test unit
+2f1010c was Ife Runsewe, 2 days ago, message: I've initialized a rails api with all of the standard files
+c868931 was Ife Runsewe, 2 days ago, message: Initial commit
