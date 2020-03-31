@@ -6,11 +6,12 @@ This is an API used to find shakespearean translations of pokemon descriptions.
 
 To install this repository please do the following:
 
-  1. git clone git@github.com:iferunsewe/pokemon_api.git
-  2. cd pokemon_api
-  3. bundle install (this will install all the dependencies)
-  4. bundle rake db:migrate
+  1. `git clone git@github.com:iferunsewe/pokemon_api.git`
+  2. `cd pokemon_api`
+  3. `bundle install` (this will install all the dependencies)
+  4. `bundle rake db:migrate`(this will run the database migrations needed)
   
+This assumes you have ruby and SQLite installed on your machine.
 
 ## Usage
 
@@ -29,4 +30,3 @@ In order to use the API, please do the following from your local pokemon_api res
 To run the tests for this project, please run the following from your local pokemon_api respository:
 
   `bundle exec rspec`
-  
