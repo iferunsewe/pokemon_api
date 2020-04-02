@@ -12,7 +12,7 @@ To install this repository please do the following:
   4. `bundle rake db:create` (this will create the database)
   4. `bundle rake db:migrate`(this will run the database migrations needed)
   
-This assumes you have ruby.
+This assumes you have ruby and postgres installed on your machine.
 
 ## Usage
 
